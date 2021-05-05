@@ -88,6 +88,9 @@ PRODUCT_PACKAGES += \
     libbluetooth_qti \
     libbthost_if
 
+# Board platform
+TARGET_BOARD_PLATFORM := sdm660
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
