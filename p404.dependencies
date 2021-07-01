@@ -8,5 +8,11 @@
     "repository": "kdrag0n/proton-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
     "branch": "master"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "branch": "lineage-18.1"
   }
 ]
