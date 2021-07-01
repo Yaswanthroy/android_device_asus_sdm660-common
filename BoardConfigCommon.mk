@@ -82,6 +82,7 @@ TARGET_KERNEL_CROSS_COMPILE_ARM32 := arm-linux-gnueabi-
 TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
