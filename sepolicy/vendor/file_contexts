@@ -20,9 +20,13 @@
 
 # Persist
 /persist(/.*)?                                                                u:object_r:mnt_vendor_file:s0
+/bt_firmware(/.*)?				              u:object_r:bt_firmware_file:s0
 
 # Scripts
 /(vendor|system/vendor)/bin/init\.btmac\.sh                                   u:object_r:init-btmac-sh_exec:s0
+
+# Root files
+/firmware(/.*)?                                                            u:object_r:firmware_file:s0
 
 # Sensors
 /sys/devices/virtual/input/input[0-9]+/stk3x[0-9]x-light(/.*)?                    u:object_r:sysfs_sensors:s0
